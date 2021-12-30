@@ -18,7 +18,6 @@ void output_NRS(char NRS[]);
 int main(void){
     struct NR NRS[100];
     input(NRS);
-//    struct  NR NT={100,2};
     int i=0;
     for (; i < 100; ++i) {
         if(NRS[i].N==0){
